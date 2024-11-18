@@ -1,0 +1,1752 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Hero-bg {
+  font-family: Work Sans;
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+.market {
+  width: 139px;
+  height: 46px;
+  padding: 0px 20px 0px 20px;
+  gap: 12px;
+  border-radius: 20px 0px 0px 0px;
+}
+.ran {
+  width: 112px;
+  height: 46px;
+  padding: 0px 20px 0px 20px;
+  gap: 12px;
+  border-radius: 20px 0px 0px 0px;
+}
+.wallet {
+  width: 194px;
+  height: 46px;
+  padding: 0px 20px 0px 20px;
+  gap: 12px;
+  border-radius: 20px 0px 0px 0px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  border-radius: 20px;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  width: 152px;
+  height: 60px;
+  gap: 12px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.btn-login {
+  background-color: #6a0dad;
+  padding: 20px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  height: 704px;
+}
+
+.hero-content h1 {
+  font-family: Work Sans;
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 73.7px;
+  text-align: left;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-primary {
+  background-color: #6a0dad;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  width: 224px;
+  height: 60px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #a259ff;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+.featured-nft {
+  max-width: 45%;
+  background-color: #2a2a2a;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.featured-nft img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+.image-caption {
+  padding: 20px;
+}
+.image-caption h3 {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  text-align: left;
+}
+.image-caption p {
+  margin: 5px 0 0;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+.image-caption p i {
+  margin-right: 10px;
+}
+.stats {
+  display: flex;
+  margin-top: 40px;
+  gap: 30px;
+  font-family: Work Sans;
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 38.38px;
+  text-align: left;
+}
+
+.stats div {
+  text-align: center;
+  margin: 0 auto;
+}
+.nft-info {
+  background-color: #3b3b3b;
+}
+
+/* Trending Collection Section */
+
+.trending-collection {
+  text-align: center;
+  padding: 80px 0;
+  gap: 60px;
+}
+.title {
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+}
+.subtitle {
+  color: white;
+  margin-bottom: 40px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+}
+.collection {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.item {
+  box-sizing: border-box;
+  width: 330px;
+  border-radius: 20px 0 0 0;
+}
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
+.trend {
+  height: auto;
+}
+.item .thumbnails {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.item .thumbnails img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px 0 0 0;
+}
+.item .count {
+  background-color: #a259ff;
+  color: #ffffff;
+  padding: 10px 18px;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item .title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.item .author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.item .author img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+/* Top Creators Section */
+.Top-Creators {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  height: 1085px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 18px;
+  color: #b0b0b0;
+}
+
+.view-rankings {
+  display: flex;
+  align-items: center;
+  width: 247px;
+  height: 60px;
+  border: 3px solid #a259ff;
+  color: #ffffff;
+  background-color: #2a2a2a;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  padding: 0px 50px 0px 50px;
+  border-radius: 20px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  gap: 12px;
+}
+
+.view-rankings:hover {
+  background-color: #a259ff;
+  border-color: #fff;
+}
+
+.creators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.creator-container {
+  position: relative;
+  width: 230px;
+  text-align: center;
+}
+
+.creator {
+  background-color: #3b3b3b;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+
+.rank {
+  background-color: #3a3a3c;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.creator img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.creator h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.creator p {
+  color: #b0b0b0;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Browse Categories Section  */
+
+.browse-categories {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  /* height: 883px; */
+}
+.browse-title h1 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.grid-item {
+  background-color: #2b2b2b;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.grid-item img {
+  width: 240px;
+  height: 240px;
+  display: block;
+}
+.icon-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+}
+.icon-overlay img {
+  width: 100%;
+  height: 100%;
+}
+.browse-text {
+  background-color: #3b3b3b;
+  width: 100%;
+  height: 76px;
+  padding: 20px 30px 25px 30px;
+}
+.browse-text p {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  text-align: left;
+}
+
+/* More NFTs Section */
+.more-nfts {
+  font-family: Work Sans;
+  color: #fff;
+  height: 786px;
+}
+.more-nfts-header {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-text h1 {
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+}
+.header-text p {
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+}
+.see-all {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  width: 187px;
+  height: 60px;
+  padding: 0px 50px 0px 50px;
+  border-radius: 20px;
+  border: 2px solid #a259ff;
+}
+.see-all i {
+  margin-right: 5px;
+}
+.nft-cards {
+  display: flex;
+  justify-content: space-between;
+  height: 469px;
+  gap: 30px;
+}
+.nft-card {
+  background-color: #3b3b3b;
+  overflow: hidden;
+  text-align: left;
+  width: 330px;
+  height: 469px;
+  border-radius: 20px;
+}
+.nft-card img {
+  width: 100%;
+  border-bottom: 1px solid #444;
+}
+.details {
+  padding: 15px;
+}
+.details h3 {
+  font-size: 20px;
+}
+.creator-1 {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  color: #b3b3b3;
+  border-radius: 15px;
+  padding: 20px;
+  width: 230px;
+  text-align: center;
+}
+.creator-1 img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.price-bid {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  gap: 64px;
+  color: #b3b3b3;
+}
+
+/* .Magic-Mushroom */
+.Magic-Mushroom {
+  width: 1280px;
+  height: 640px;
+  display: flex;
+  font-family: Work Sans;
+  justify-content: center;
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #a259ff 100%),
+    url("https://s3-alpha-sig.figma.com/img/a6f4/3f93/50c73503d13e1fe1a0e3277804ef1192?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fEGyrhYDT67bFAZlHAeQrJwgBmUH2kZTtOp6VnmHEhFry-um8UDpF1WNL90K7ROlJfW239KVbJA1cK22nKF0XYFPjiAn-PUfx~TY2wasqGkYgkF8pHsp70PyQvfb9DM3FW3rJ4afAguzoW1CFFH0wj4LJPkw2UjLkbigvqK42PuXwCxti~X0HBu8-JsJLn9gGpolhwbJXIpu4Zq1t6NLJH5g0EEedd5APFbp12QW-64MIBmssKyUQTlPX3nQB1w6FeyQ5Iz5xApCPLH2-zNeAGdNNBeEGYVrNiJ9rsgNqTSSQWe-yauKl4gGMPiH-uUTUz0~CIghR6TnIUqvjw8aUQ__")
+      no-repeat center center/cover;
+}
+.mush-container3 {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 280px;
+  justify-content: space-evenly;
+}
+.content-mushroom {
+  display: flex;
+  flex-direction: column;
+  width: 755px;
+  height: 220px;
+}
+.profile {
+  width: 151px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.profile img {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.profile span {
+  font-size: 18px;
+}
+.title2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.button2 {
+  width: 198px;
+  height: 60px;
+  padding: 22px 50px 22px 50px;
+  border-radius: 20px;
+  display: inline-block;
+  background: white;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+.button i {
+  margin-right: 10px;
+}
+.timer {
+  width: 295px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.timer p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.timer #countdown {
+  font-family: Space Mono;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45.6px;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+}
+.timer .countdown1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.timer .labels {
+  display: flex;
+  font-size: 14px;
+  gap: 30px;
+}
+
+/* How It Works Section */
+.how-it-works {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.title-how {
+  font-family: "Work Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  margin-bottom: 10px;
+}
+
+.subtitle-how {
+  margin-bottom: 40px;
+  color: #b3b3b3;
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+}
+
+.cards-how {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.card-how {
+  background: #3b3b3b;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.card-how img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+}
+
+.card-description {
+  color: #b3b3b3;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+/* Weekly-Digest */
+.weekly-digest {
+  font-family: "Inter", sans-serif;
+  background-color: #2b2b2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: auto;
+}
+
+.image-head {
+  background-color: #3b3b3b;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 60px;
+  border-radius: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 425px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 20px;
+  max-width: 425px;
+  width: 100%;
+  text-align: left;
+}
+
+.content h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.content p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%;
+}
+
+.subscribe-container input[type="email"] {
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  outline: none;
+  flex: 1;
+}
+
+.subscribe-container button {
+  background-color: #a259ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-container button i {
+  margin-right: 5px;
+}
+
+/* Footer Styling */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3b3b3b;
+  padding: 40px 195px;
+  gap: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-column,
+.footer-column-2,
+.footer-column-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-column .logo img {
+  width: 243.41px;
+  height: 32px;
+}
+
+.footer-column p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  color: #bbb;
+  margin: 0;
+}
+
+.footer-column .social-icons a {
+  color: #bbb;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.footer-column .social-icons a:hover {
+  color: #fff;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
+.footer-column-2 h3,
+.footer-column-3 h3 {
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer-column-2 a {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-column-2 a:hover {
+  color: #fff;
+}
+
+.subscribe-container-2 {
+  width: 420px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #a259ff;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 16px 0px 16px 20px;
+  gap: 12px;
+  border-radius: 20px;
+}
+
+.subscribe-container-2 input[type="email"] {
+  border: none;
+  font-size: 14px;
+  outline: none;
+  flex: 1;
+}
+
+.subscribe-container-2 button {
+  background-color: #a259ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.footer-bottom {
+  padding: 10px 0;
+  color: #bbb;
+  border-top: 1px solid #444;
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.2px;
+  text-align: center;
+}
+
+/* Responsive design */
+
+/* Tablet view (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .navbar {
+    height: auto;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu.active {
+    display: block;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    width: auto;
+    padding: 12px 40px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+    max-width: 90%;
+  }
+
+  .stats div {
+    text-align: center;
+    flex: 1; /* Ensures the stats align evenly */
+  }
+
+  .featured-nft {
+    width: 100%;
+    max-width: 400px;
+    background-color: #2a2a2a;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px auto;
+  }
+
+  .featured-nft img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .image-caption {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .image-caption h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .image-caption p {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-caption p i {
+    margin-right: 5px;
+  }
+
+  .trending-collection {
+    padding: 40px 0;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  /* Two-column layout */
+  .collection {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .item {
+    width: calc(50% - 10px);
+    max-width: 330px;
+    margin-bottom: 20px;
+  }
+
+  /* Thumbnails and count size adjustments */
+  .item .thumbnails {
+    justify-content: center;
+    gap: 10px;
+  }
+  .item .thumbnails img,
+  .item .count {
+    width: 70px;
+    height: 70px;
+    font-size: 0.8em;
+  }
+
+  .item .title {
+    font-size: 1em;
+    text-align: center;
+  }
+  .item .author {
+    justify-content: center;
+  }
+  .trending-collection .collection .item:last-child {
+    display: none;
+  }
+
+  .Browse-Categories {
+    padding: 40px 20px;
+  }
+
+  .Browse-Categories h2 {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .browse-text {
+    padding: 0px;
+  }
+
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .category {
+    padding: 15px;
+  }
+
+  .category img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .category h3 {
+    font-size: 18px;
+  }
+
+  .more-nfts {
+    height: auto;
+    padding: 20px;
+  }
+
+  .more-nfts-header {
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .header-text h1 {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .header-text p {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .see-all {
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .more-nfts {
+    padding: 20px;
+    height: auto;
+  }
+
+  .header-text h1 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .header-text p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .see-all {
+    margin-top: 10px;
+    width: 40%;
+    justify-content: center;
+  }
+
+  .nft-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .nft-card {
+    width: 310px;
+    height: 420px;
+  }
+
+  .details {
+    padding: 10px;
+  }
+
+  .details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .creator-1 {
+    font-size: 14px;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+  }
+
+  .price-bid {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    gap: 10px;
+  }
+  .nft-card:last-child {
+    display: none;
+  }
+
+  .Magic-Mushroom {
+    height: auto;
+    padding: 40px 0;
+    width: 100%;
+  }
+  .content-mushroom {
+    width: 300px;
+  }
+
+  .mush-container3 {
+    height: auto;
+    gap: 20px;
+  }
+
+  .how-it-works {
+    padding: 40px 20px;
+  }
+
+  .title-how {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+  }
+
+  .subtitle-how {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .cards-how {
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card-how {
+    width: 100%;
+    max-width: 330px;
+  }
+
+  .card-how img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .image-head {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .content {
+    max-width: 50%;
+  }
+
+  .content h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .content p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .subscribe-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .subscribe-container input[type="email"] {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .subscribe-container button {
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    padding: 40px 30px;
+    height: auto;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer-column,
+  .footer-column-2,
+  .footer-column-3 {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .footer-column .logo img {
+    width: 200px;
+    height: auto;
+  }
+
+  .footer-column p,
+  .footer-column-2 a,
+  .footer-column-3 p {
+    font-size: 14px;
+  }
+
+  .footer-column-2 h3,
+  .footer-column-3 h3 {
+    font-size: 20px;
+  }
+
+  .subscribe-container-2 {
+    width: 100%;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .subscribe-container-2 input[type="email"] {
+    width: auto;
+    padding: 8px;
+  }
+
+  .subscribe-container-2 button {
+    padding: 25px 50px;
+  }
+
+  /* Specific adjustments for the Top Creators section */
+
+  .Top-Creators {
+    padding: 40px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .header {
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .header-content {
+    width: 343px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .header p {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .view-rankings {
+    width: auto;
+    align-self: flex-end;
+    padding: 10px 20px;
+  }
+
+  .creators {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .creator-container {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .creator {
+    padding: 15px;
+  }
+
+  .creator img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+
+  .creator h3 {
+    font-size: 18px;
+  }
+
+  .creator p {
+    font-size: 14px;
+  }
+
+  .creator .rank {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    top: 15px;
+  }
+
+  .creator {
+    display: flex;
+    align-items: center;
+    background: #3b3b3b;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .creator h3,
+  .creator p {
+    margin: 0;
+    text-align: left;
+  }
+  .creator-container:nth-child(n + 7) {
+    display: none;
+  }
+}
+
+/* Mobile view (max-width: 375px) */
+@media screen and (max-width: 375px) {
+  /* Layout */
+  .container {
+    max-width: 375px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .navbar {
+    padding: 15px;
+    width: 375px;
+  }
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  /* Hero Section */
+  .hero {
+    flex-direction: column;
+    align-items: center; 
+    padding: 0; /* Remove default padding */
+    height: auto; /* Let the height adjust automatically */
+  }
+
+  .hero-content {
+    width: 100%; 
+    text-align: center;
+    padding: 20px; /* Add padding for the content */
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px; 
+  }
+  .wrapper{
+    flex-direction: column;
+  }
+
+  .btn-primary {
+    width: 100%; 
+    padding: 15px 30px;
+    font-size: 16px; 
+    border-radius: 20px; /* Rounded corners */
+    margin-bottom: 20px; 
+  }
+
+  .stats {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .stats div {
+    text-align: center;
+  }
+
+  .featured-nft {
+    width: 100%;
+    margin: 0; /* Remove default margin */
+  }
+
+  .featured-nft img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Rounded corners */
+  }
+
+  /* Trending Collection */
+  .trending-collection .collection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .thumbnails img,
+  .count {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Top Creators */
+  .Top-Creators .creators {
+    flex-direction: column;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .creator-container {
+    width: 90%;
+  }
+
+  .creator {
+    padding: 10px;
+  }
+
+  .creator img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .creator h3 {
+    font-size: 16px;
+  }
+
+  .creator p {
+    font-size: 12px;
+  }
+
+  /* Browse Categories */
+  .browse-categories .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+
+  .browse-text p {
+    font-size: 14px;
+  }
+
+  /* More NFTs */
+  .more-nfts .nft-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .nft-cards {
+    height: 1246px;
+  }
+  .nft-card {
+    width: 100%;
+  }
+
+  .details h3 {
+    font-size: 16px;
+  }
+
+  .creator-1 {
+    font-size: 14px;
+  }
+
+  .price-bid {
+    font-size: 12px;
+  }
+
+  /* Magic Mushroom */
+  .Magic-Mushroom {
+    padding: 40px 0;
+    width: 100%;
+  }
+
+  .content-mushroom {
+    width: 100%;
+  }
+
+  .mush-container3 {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .title2 {
+    font-size: 50px;
+  }
+
+  .button2 {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 185px;
+  }
+
+  .timer {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .timer p {
+    font-size: 14px;
+  }
+
+  .countdown1 {
+    font-size: 24px;
+  }
+
+  .labels {
+    font-size: 12px;
+    gap: 15px;
+  }
+
+  /* How It Works */
+  .how-it-works .cards-how {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .card-how {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .card-how img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-description {
+    font-size: 14px;
+  }
+
+  /* Weekly Digest */
+  /* Weekly Digest Section */
+  .weekly-digest {
+    height: auto;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-head {
+    flex-direction: column; 
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto; 
+  }
+
+  .content {
+    max-width: 90%;
+  }
+
+  .content h2 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .content p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  /* Button Adjustments */
+  .subscribe-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    margin-bottom: 15px;
+  }
+
+  .subscribe-container input[type="email"] {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .subscribe-container button {
+    padding: 10px 20px;
+    font-size: 16px; 
+    width: 100%;
+    border-radius: 20px; 
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-column,
+  .footer-column-2,
+  .footer-column-3 {
+    width: 100%;
+  }
+
+  .footer-column .logo img {
+    width: 200px;
+  }
+
+  .footer-column p,
+  .footer-column-2 a,
+  .footer-column-3 p {
+    font-size: 14px;
+  }
+
+  .footer-column-2 h3,
+  .footer-column-3 h3 {
+    font-size: 18px;
+  }
+
+  .subscribe-container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    margin-bottom: 15px;
+  }
+
+  .subscribe-container-2 input[type="email"] {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .subscribe-container-2 button {
+    padding: 10px 20px;
+    font-size: 16px; 
+    width: 100%;
+    border-radius: 20px; 
+  }
+
+
+  /* Hamburger Menu */
+  .hamburger {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu.active {
+    display: block;
+  }
+}
